@@ -3,7 +3,7 @@
 ## Sensitive Data Detection and Masking
 
 This project demonstrates an end-to-end **AWS Glue ETL pipeline** designed to detect, mask, and transform sensitive customer data stored in Amazon S3.  
-The solution focuses on **data privacy**, **PII protection**, and **modern data lake best practices** using AWS-native services.
+The solution focuses on **data privacy**, **Personally Identifiable Information (PII) protection**, and **modern data lake best practices** using AWS-native services.
 
 ---
 
@@ -71,6 +71,9 @@ The repository is organized as follows:
 
 ### Raw Input Data
 ![Raw Input Data](images/s3-raw-input.png)
+
+### ETL Job AWS Glue
+![Raw Input Data](images/etl-job-aws.png)
 
 ### Processed Output Data
 ![Processed Output Data](images/s3-processed-output.png)
